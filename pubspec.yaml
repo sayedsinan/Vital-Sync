@@ -1,0 +1,47 @@
+name: vital_sync
+description: A Flutter app for real-time Health Connect data visualization
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Health Connect Integration
+  health: ^10.1.0
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  
+  # Utilities
+  intl: ^0.18.1
+  crypto: ^3.0.3
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting & Analysis
+  flutter_lints: ^3.0.1
+  
+  # Testing
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/
+
